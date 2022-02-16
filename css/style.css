@@ -95,6 +95,9 @@ footer {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1rem;
   font-weight: 300; }
+  @media only screen and (max-width: 480px) {
+    footer {
+      height: 14vh; } }
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     footer {
       height: 14vh; } }
