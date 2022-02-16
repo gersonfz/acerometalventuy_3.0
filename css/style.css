@@ -90,23 +90,11 @@ footer {
   background-position: bottom;
   background-size: cover;
   padding: 5px;
-  height: 12vh;
+  height: 85px;
   color: #F2F2F2;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1rem;
   font-weight: 300; }
-  @media only screen and (max-width: 767px) {
-    footer {
-      height: 14vh; } }
-  @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    footer {
-      height: 14vh; } }
-  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-    footer {
-      height: 14vh; } }
-  @media only screen and (min-width: 1200px) {
-    footer {
-      height: 12vh; } }
 
 /* Fin del Footer */
 /* Mixins y Media Queries */
