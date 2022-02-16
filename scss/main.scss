@@ -1,1 +1,9 @@
-/**/
+@import "base/reset";
+@import "base/tipografia";
+
+@import "layout/header";
+@import "layout/index";
+@import "layout/footer";
+
+@import "utilities/mixins";
+@import "utilities/variables";

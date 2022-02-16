@@ -1,1 +1,83 @@
-/**/
+@import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/* RESET */
+/* Inicio del Header */
+/* Inicio de fondo, tipografia y color de la tipografia */
+.menuHeader {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  background-image: url(../multimedia/imagenes/imagenesoriginales/imagendefondo.jpg);
+  background-size: cover;
+  background-position: top;
+  margin-bottom: 25px; }
+  .menuHeader h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #F2F2F2;
+    font-style: normal; }
+  .menuHeader a {
+    font-size: 1.25rem;
+    font-weight: 200;
+    font-style: italic; }
+
+/* Fin de fondo, tipografia y color de la tipografia */
+/* Pagina principal */
+/* Inicio del contenido */
+/*Inicio de subtitulos*/
+.subtituloContenido {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #595959;
+  text-align: center;
+  font-weight: 400; }
+  .subtituloContenido h1 {
+    font-size: 2.5rem;
+    margin: 40px; }
+  .subtituloContenido h3 {
+    font-size: 2rem;
+    margin: 20px; }
+
+/*Fin de subtitulos*/
+/* Video */
+#tamanoVideo1 {
+  width: 100%;
+  height: 85vh;
+  padding: 15px;
+  display: none; }
+
+#tamanoVideo2 {
+  width: 100%;
+  height: 100%;
+  padding: 15px; }
+
+/* Video */
+/* Fin del contenido */
+/*Inicio del Footer*/
+footer {
+  background-image: url(../multimedia/imagenes/imagenesoriginales/imagendefondo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding: 5px;
+  height: 12vh;
+  color: #F2F2F2;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1rem;
+  font-weight: 300; }
+
+/* Fin del Footer */
+/* Mixins y Media Queries */
+/* Smartphone horizontal */
+/* Smartphone vertical */
+/* Tablet*/
+/* Notebooks */
+@media (min-width: 1024px) {
+  #tamanoVideo1 {
+    width: 100%;
+    height: 85vh;
+    padding: 15px;
+    display: initial; } }
+
+/* Desktop */

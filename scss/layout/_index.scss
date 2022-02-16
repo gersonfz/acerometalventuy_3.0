@@ -1,0 +1,43 @@
+
+
+/* Pagina principal */
+
+/* Inicio del contenido */
+
+    /*Inicio de subtitulos*/
+
+    .subtituloContenido{
+        font-family: $tipografiaPrincipal;
+        color:$subtitulos;
+        text-align: center;
+        font-weight: 400;
+        h1{
+            font-size: 2.5rem;
+            margin: 40px;
+        }
+        h3{
+            font-size: 2rem;
+            margin: 20px;
+        }
+    }
+
+    /*Fin de subtitulos*/
+
+    /* Video */
+
+    #tamanoVideo1{
+        width: 100%;
+        height: 85vh;
+        padding: 15px;
+        display: none;
+    }
+    #tamanoVideo2{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+      
+    }
+
+    /* Video */
+
+/* Fin del contenido */

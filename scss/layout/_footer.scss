@@ -1,0 +1,18 @@
+@import "../base/tipografia";
+@import "../utilities/variables";
+
+/*Inicio del Footer*/
+
+footer{
+    background-image: url(../multimedia/imagenes/imagenesoriginales/imagendefondo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    padding: 5px;
+    height: 12vh;
+    color:$fondo;
+    font-family: $tipografiaPrincipal;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Fin del Footer */
