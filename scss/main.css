@@ -31,6 +31,20 @@
 }
 
 /* Fin de fondo, tipografia y color de la tipografia */
+/* Mixins y Media Queries */
+/* Smartphone */
+/* Tablet*/
+/* Notebooks */
+@media (min-width: 1024px) {
+  #tamanoVideo1 {
+    width: 100%;
+    height: 85vh;
+    padding: 15px;
+    display: initial;
+  }
+}
+
+/* Desktop */
 /* Pagina principal */
 /* Inicio del contenido */
 /*Inicio de subtitulos*/
@@ -41,9 +55,15 @@
   font-weight: 400;
 }
 
-.subtituloContenido h1 {
-  font-size: 2.5rem;
+.subtituloContenido h2 {
+  font-size: 1.5rem;
   margin: 40px;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .subtituloContenido h2 {
+    font-size: 2rem;
+  }
 }
 
 .subtituloContenido h3 {
@@ -58,6 +78,24 @@
   height: 85vh;
   padding: 15px;
   display: none;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #tamanoVideo1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  #tamanoVideo1 {
+    display: initial;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  #tamanoVideo1 {
+    display: initial;
+  }
 }
 
 #tamanoVideo2 {
@@ -83,8 +121,7 @@ footer {
 
 /* Fin del Footer */
 /* Mixins y Media Queries */
-/* Smartphone horizontal */
-/* Smartphone vertical */
+/* Smartphone */
 /* Tablet*/
 /* Notebooks */
 @media (min-width: 1024px) {
