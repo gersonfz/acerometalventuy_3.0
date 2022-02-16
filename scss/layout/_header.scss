@@ -1,5 +1,6 @@
 @import "../base/tipografia";
 @import "../utilities/variables";
+@import "../utilities/mixins";
 
 /* Inicio del Header */
 
@@ -11,14 +12,23 @@
     background-position: top;
     margin-bottom: 25px;
     h1{
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: lighter;
         color: $fondo;
         font-style: normal;
+        @include tablet{
+            font-size: 2.5rem
+        }
+        @include notebook{
+            font-size: 3rem;
+        }
+        @include desktop{
+            font-size: 3rem;
+        }
     }
     a{
     font-size: 1.25rem;
-    font-weight:200;
+    font-weight:300;
     font-style: italic;
     }
 }

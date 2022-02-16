@@ -7,6 +7,7 @@
 }
 
 /* RESET */
+/* Mixins y Media Queries */
 /* Inicio del Header */
 /* Inicio de fondo, tipografia y color de la tipografia */
 .menuHeader {
@@ -18,33 +19,38 @@
 }
 
 .menuHeader h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: lighter;
   color: #F2F2F2;
   font-style: normal;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .menuHeader h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .menuHeader h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .menuHeader h1 {
+    font-size: 3rem;
+  }
+}
+
 .menuHeader a {
   font-size: 1.25rem;
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
 }
 
 /* Fin de fondo, tipografia y color de la tipografia */
 /* Mixins y Media Queries */
-/* Smartphone */
-/* Tablet*/
-/* Notebooks */
-@media (min-width: 1024px) {
-  #tamanoVideo1 {
-    width: 100%;
-    height: 85vh;
-    padding: 15px;
-    display: initial;
-  }
-}
-
-/* Desktop */
 /* Pagina principal */
 /* Inicio del contenido */
 /*Inicio de subtitulos*/
@@ -60,9 +66,21 @@
   margin: 40px;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .subtituloContenido h2 {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .subtituloContenido h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .subtituloContenido h2 {
+    font-size: 2.5rem;
   }
 }
 
@@ -80,19 +98,19 @@
   display: none;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   #tamanoVideo1 {
     display: none;
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1023px) {
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
   #tamanoVideo1 {
     display: initial;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   #tamanoVideo1 {
     display: initial;
   }
@@ -112,26 +130,25 @@ footer {
   background-position: bottom;
   background-size: cover;
   padding: 5px;
-  height: 12vh;
+  height: 8vh;
   color: #F2F2F2;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1rem;
   font-weight: 300;
 }
 
-/* Fin del Footer */
-/* Mixins y Media Queries */
-/* Smartphone */
-/* Tablet*/
-/* Notebooks */
-@media (min-width: 1024px) {
-  #tamanoVideo1 {
-    width: 100%;
-    height: 85vh;
-    padding: 15px;
-    display: initial;
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  footer {
+    font-size: 3rem;
   }
 }
 
-/* Desktop */
+@media only screen and (min-width: 1200px) {
+  footer {
+    font-size: 3rem;
+  }
+}
+
+/* Fin del Footer */
+/* Mixins y Media Queries */
 /*# sourceMappingURL=main.css.map */

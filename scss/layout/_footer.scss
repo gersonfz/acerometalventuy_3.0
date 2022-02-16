@@ -8,11 +8,20 @@ footer{
     background-position: bottom;
     background-size: cover;
     padding: 5px;
-    height: 12vh;
+    height: 8vh;
     color:$fondo;
     font-family: $tipografiaPrincipal;
     font-size: 1rem;
     font-weight: 300;
+    @include tablet{
+        
+    }
+    @include notebook{
+        font-size: 3rem;
+    }
+    @include desktop{
+        font-size: 3rem;
+    }
 }
 
 /* Fin del Footer */

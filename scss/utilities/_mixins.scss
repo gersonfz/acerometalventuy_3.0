@@ -2,48 +2,25 @@
 
 // BreackPoints
 @mixin smartphone {
-    @media only screen and (max-width: 480px) {
+    @media only screen and (min-width: 320px) {
       @content;
     }
   }
 
   @mixin tablet {
-    @media only screen and (min-width: 481px) and (max-width: 768px) {
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
       @content;
     }
   }
-  
+
   @mixin notebook {
-    @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
       @content;
     }
   }
   
   @mixin desktop {
-    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    @media only screen and (min-width: 1200px){
       @content;
     }
   }
-
-/* Smartphone */
-
-
-
-
-/* Tablet*/
-
-
-
-
-/* Notebooks */
-
-@media (min-width:1024px){
-    #tamanoVideo1{
-        width: 100%;
-        height: 85vh;
-        padding: 15px;
-        display:initial;
-    }
-}
-
-/* Desktop */

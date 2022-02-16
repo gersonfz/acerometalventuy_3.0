@@ -18,6 +18,12 @@
             @include tablet{
                 font-size: 2rem
             }
+            @include notebook{
+                font-size: 2.5rem;
+            }
+            @include desktop{
+                font-size: 2.5rem;
+            }
         }
         h3{
             font-size: 2rem;
