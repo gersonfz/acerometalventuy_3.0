@@ -14,13 +14,13 @@ footer{
     font-size: 1rem;
     font-weight: 300;
     @include tablet{
-        
+        height: 10vh;
     }
     @include notebook{
-        font-size: 3rem;
-    }
+        height: 12vh;
+        }
     @include desktop{
-        font-size: 3rem;
+        height: 12vh;
     }
 }
 

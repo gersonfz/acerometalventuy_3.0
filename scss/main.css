@@ -137,15 +137,21 @@ footer {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    height: 10vh;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
   footer {
-    font-size: 3rem;
+    height: 12vh;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   footer {
-    font-size: 3rem;
+    height: 12vh;
   }
 }
 
