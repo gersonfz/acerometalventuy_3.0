@@ -5,43 +5,6 @@
 
 /* Inicio del contenido */
 
-    /*Inicio de subtitulos*/
-
-    .subtituloContenido{
-        font-family: $tipografiaPrincipal;
-        color:$subtitulos;
-        text-align: center;
-        font-weight: 400;
-        h2{
-            font-size: 1.5rem;
-            margin: 40px;
-            @include tablet{
-                font-size: 2rem
-            }
-            @include notebook{
-                font-size: 2.5rem;
-            }
-            @include desktop{
-                font-size: 2.5rem;
-            }
-        }
-        h3{
-            font-size: 1.25rem;
-            margin: 20px;
-            @include tablet{
-                font-size: 1.5rem
-            }
-            @include notebook{
-                font-size: 2rem;
-            }
-            @include desktop{
-                font-size: 2rem;
-            }
-        }
-    }
-
-    /*Fin de subtitulos*/
-
     /* Video */
     #tamanoVideo1{
         width: 100%;
@@ -59,10 +22,13 @@
         }
     }
     #tamanoVideo2{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         padding: 15px;
       
+    }
+    .contenidoIndex{
+        width: 85vw;
     }
 
     /* Video */

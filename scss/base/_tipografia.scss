@@ -1,5 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
 
 $tipografiaPrincipal: 'Yanone Kaffeesatz', sans-serif;
 $tipografiaParrafo: 'Nobile', sans-serif;
-    
+
+
+//Extend
+    %header {
+        font-size: 2rem;
+        font-weight: lighter;
+        color: $principal;
+        font-style: normal;
+    }
+
+    %menu{
+        font-size: 1.25rem;
+        font-weight:300;
+        font-style: italic;
+    }
+
+    %subtituloh2{
+        font-size: 1.5rem;
+        margin: 40px;
+    }
+    %subtituloh3{
+        font-size: 1.25rem;
+        margin: 20px;
+    }
+
+// Fin del Extend
+
+/* Contenido tipografico del Titulo principal y el menu */
+
+
+    h1{
+        @extend %header;
+        @include tablet{
+            font-size: 2.5rem
+        }
+        @include notebook{
+            font-size: 3rem;
+        }
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+
+    .subtituloContenido{
+        font-family: $tipografiaPrincipal;
+        color:$subtitulos;
+        text-align: center;
+        font-weight: 400;
+h2{
+    @extend %subtituloh2;
+    @include tablet{
+        font-size: 2rem
+    }
+    @include notebook{
+        font-size: 2.5rem;
+    }
+    @include desktop{
+        font-size: 2.5rem;
+    }
+}
+h3{
+    @extend %subtituloh3;
+    @include tablet{
+        font-size: 1.5rem
+    }
+    @include notebook{
+        font-size: 2rem;
+    }
+    @include desktop{
+        font-size: 2rem;
+    }
+}
+    }
+
+
+a{
+    @extend %menu;
+}

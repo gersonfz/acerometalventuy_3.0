@@ -1,0 +1,44 @@
+
+
+/* Inicio de animaciones del header */
+
+.animacionesTitulo{
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+@keyframes titulo{
+    from{
+        transform: translateX(-350px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.animacionesMenu{
+    animation-name: menu;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    @include notebook{
+        animation-duration: 3s;
+        animation-delay: 0s;    }
+    @include desktop{
+        animation-duration: 3s;
+        animation-delay: 0s;    }
+}
+@keyframes menu{
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+/* Fin de animaciones del header */

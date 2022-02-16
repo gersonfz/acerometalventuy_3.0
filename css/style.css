@@ -1,12 +1,155 @@
 @import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nobile:ital@0;1&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
-/* RESET */
-/* Mixins y Media Queries */
+/* FIN RESET */
+h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #F2F2F2;
+  font-style: normal; }
+
+a {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic; }
+
+.subtituloContenido h2 {
+  font-size: 1.5rem;
+  margin: 40px; }
+
+.subtituloContenido h3 {
+  font-size: 1.25rem;
+  margin: 20px; }
+
+/* Contenido tipografico del Titulo principal y el menu */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem; } }
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3rem; } }
+
+.subtituloContenido {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #595959;
+  text-align: center;
+  font-weight: 400; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h2 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h3 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+
+/* Inicio de animaciones del header */
+.animacionesTitulo {
+  animation-name: titulo;
+  animation-iteration-count: 1;
+  animation-duration: 3s;
+  animation-delay: 0s; }
+
+@keyframes titulo {
+  from {
+    transform: translateX(-350px); }
+  to {
+    transform: translateX(0); } }
+
+.animacionesMenu {
+  animation-name: menu;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0s; }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .animacionesMenu {
+      animation-duration: 3s;
+      animation-delay: 0s; } }
+  @media only screen and (min-width: 1200px) {
+    .animacionesMenu {
+      animation-duration: 3s;
+      animation-delay: 0s; } }
+
+@keyframes menu {
+  from {
+    transform: translateX(300px); }
+  to {
+    transform: translateX(0); } }
+
+/* Fin de animaciones del header */
+h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #F2F2F2;
+  font-style: normal; }
+
+a {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic; }
+
+.subtituloContenido h2 {
+  font-size: 1.5rem;
+  margin: 40px; }
+
+.subtituloContenido h3 {
+  font-size: 1.25rem;
+  margin: 20px; }
+
+/* Contenido tipografico del Titulo principal y el menu */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem; } }
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3rem; } }
+
+.subtituloContenido {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #595959;
+  text-align: center;
+  font-weight: 400; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h2 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h3 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+
 /* Inicio del Header */
 /* Inicio de fondo, tipografia y color de la tipografia */
 .menuHeader {
@@ -15,61 +158,10 @@
   background-size: cover;
   background-position: top;
   margin-bottom: 25px; }
-  .menuHeader h1 {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: #F2F2F2;
-    font-style: normal; }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
-      .menuHeader h1 {
-        font-size: 2.5rem; } }
-    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-      .menuHeader h1 {
-        font-size: 3rem; } }
-    @media only screen and (min-width: 1200px) {
-      .menuHeader h1 {
-        font-size: 3rem; } }
-  .menuHeader a {
-    font-size: 1.25rem;
-    font-weight: 300;
-    font-style: italic; }
 
 /* Fin de fondo, tipografia y color de la tipografia */
-/* Mixins y Media Queries */
 /* Pagina principal */
 /* Inicio del contenido */
-/*Inicio de subtitulos*/
-.subtituloContenido {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  color: #595959;
-  text-align: center;
-  font-weight: 400; }
-  .subtituloContenido h2 {
-    font-size: 1.5rem;
-    margin: 40px; }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
-      .subtituloContenido h2 {
-        font-size: 2rem; } }
-    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-      .subtituloContenido h2 {
-        font-size: 2.5rem; } }
-    @media only screen and (min-width: 1200px) {
-      .subtituloContenido h2 {
-        font-size: 2.5rem; } }
-  .subtituloContenido h3 {
-    font-size: 1.25rem;
-    margin: 20px; }
-    @media only screen and (min-width: 768px) and (max-width: 1023px) {
-      .subtituloContenido h3 {
-        font-size: 1.5rem; } }
-    @media only screen and (min-width: 1024px) and (max-width: 1199px) {
-      .subtituloContenido h3 {
-        font-size: 2rem; } }
-    @media only screen and (min-width: 1200px) {
-      .subtituloContenido h3 {
-        font-size: 2rem; } }
-
-/*Fin de subtitulos*/
 /* Video */
 #tamanoVideo1 {
   width: 100%;
@@ -87,12 +179,71 @@
       display: initial; } }
 
 #tamanoVideo2 {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 15px; }
+
+.contenidoIndex {
+  width: 85vw; }
 
 /* Video */
 /* Fin del contenido */
+h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+  color: #F2F2F2;
+  font-style: normal; }
+
+a {
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic; }
+
+.subtituloContenido h2 {
+  font-size: 1.5rem;
+  margin: 40px; }
+
+.subtituloContenido h3 {
+  font-size: 1.25rem;
+  margin: 20px; }
+
+/* Contenido tipografico del Titulo principal y el menu */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 2.5rem; } }
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem; } }
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3rem; } }
+
+.subtituloContenido {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #595959;
+  text-align: center;
+  font-weight: 400; }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h2 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h2 {
+      font-size: 2.5rem; } }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .subtituloContenido h3 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .subtituloContenido h3 {
+      font-size: 2rem; } }
+
 /*Inicio del Footer*/
 footer {
   background-image: url(../multimedia/imagenes/imagenesoriginales/imagendefondo.jpg);
@@ -106,4 +257,3 @@ footer {
   font-weight: 300; }
 
 /* Fin del Footer */
-/* Mixins y Media Queries */
