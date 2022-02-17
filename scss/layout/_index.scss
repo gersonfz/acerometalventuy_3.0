@@ -11,13 +11,13 @@
         height: 85vh;
         padding: 15px;
         display:none;
-        @include tablet{
+        @include responsive(tablet){
             display: none;
         }
-        @include notebook{
+        @include responsive(notebook){
             display: initial;
         }
-        @include desktop{
+        @include responsive(desktop){
             display: initial
         }
     }

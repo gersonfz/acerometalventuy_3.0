@@ -29,19 +29,19 @@ a {
 }
 
 /* Contenido tipografico del Titulo principal y el menu */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   h1 {
     font-size: 3rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 3rem;
   }
@@ -54,37 +54,37 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h2 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h3 {
     font-size: 1.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }
@@ -135,7 +135,7 @@ a {
           animation-delay: 0s;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .animacionesMenu {
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
@@ -144,7 +144,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .animacionesMenu {
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
@@ -200,19 +200,19 @@ a {
 }
 
 /* Contenido tipografico del Titulo principal y el menu */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   h1 {
     font-size: 3rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 3rem;
   }
@@ -225,37 +225,37 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h2 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h3 {
     font-size: 1.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }
@@ -282,19 +282,19 @@ a {
   display: none;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   #tamanoVideo1 {
     display: none;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   #tamanoVideo1 {
     display: initial;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   #tamanoVideo1 {
     display: initial;
   }
@@ -336,19 +336,19 @@ a {
 }
 
 /* Contenido tipografico del Titulo principal y el menu */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   h1 {
     font-size: 3rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   h1 {
     font-size: 3rem;
   }
@@ -361,37 +361,37 @@ a {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h2 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h2 {
     font-size: 2.5rem;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   .subtituloContenido h3 {
     font-size: 1.5rem;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .subtituloContenido h3 {
     font-size: 2rem;
   }

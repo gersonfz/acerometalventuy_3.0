@@ -24,10 +24,10 @@
     animation-iteration-count: 1;
     animation-duration: 1s;
     animation-delay: 0s;
-    @include notebook{
+    @include responsive(notebook){
         animation-duration: 3s;
         animation-delay: 0s;    }
-    @include desktop{
+    @include responsive(desktop){
         animation-duration: 3s;
         animation-delay: 0s;    }
 }
