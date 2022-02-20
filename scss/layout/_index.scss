@@ -28,8 +28,14 @@
       
     }
     .contenidoIndex{
-        width: 50vw;
+        @include responsive (notebook){
+            width: 70vw;
+        }
+        @include responsive (desktop){
+            width: 60vw;
+        }
     }
+
 
     /* Video */
 

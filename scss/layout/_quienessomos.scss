@@ -1,0 +1,11 @@
+@import "../utilities/mixins";
+
+//Responsive
+.quienesSomos{
+    @include responsive (notebook){
+        width: 25%;
+    }
+    @include responsive (desktop){
+        width: 25%;
+    }
+}

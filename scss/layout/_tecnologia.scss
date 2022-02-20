@@ -1,0 +1,14 @@
+@import "../utilities/mixins";
+
+
+//Responsive
+.tamanoTecnologia{
+    @include responsive (notebook){
+        width: 25%;
+    }
+    @include responsive (desktop){
+        width: 25%;
+    }
+}
+
+//Justificar parrafos

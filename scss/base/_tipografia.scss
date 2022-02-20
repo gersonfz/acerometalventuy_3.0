@@ -18,11 +18,11 @@
     }
 
     %subtituloh2{
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         margin: 40px;
     }
     %subtituloh3{
-        font-size: 1.25rem;
+        font-size: 1.8rem;
         margin: 20px;
     }
 
@@ -51,7 +51,7 @@
 h2{
     @extend %subtituloh2;
     @include responsive(tablet){
-        font-size: 2rem
+        font-size: 2.3rem
     }
     @include responsive(notebook){
         font-size: 2.5rem;
@@ -63,13 +63,13 @@ h2{
 h3{
     @extend %subtituloh3;
     @include responsive(tablet){
-        font-size: 1.5rem
+        font-size: 1.9rem
     }
     @include responsive(notebook){
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
     @include responsive(desktop){
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 }
     }
@@ -77,4 +77,8 @@ h3{
 
 a{
     @extend %menu;
+}
+
+.modificarParrafo{
+    text-align: justify;
 }

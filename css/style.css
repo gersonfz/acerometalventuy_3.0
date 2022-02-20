@@ -16,11 +16,11 @@ a {
   font-style: italic; }
 
 .subtituloContenido h2 {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   margin: 40px; }
 
 .subtituloContenido h3 {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   margin: 20px; }
 
 /* Contenido tipografico del Titulo principal y el menu */
@@ -42,7 +42,7 @@ a {
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h2 {
       font-size: 2.5rem; } }
@@ -51,13 +51,16 @@ a {
       font-size: 2.5rem; } }
   @media screen and (min-width: 768px) {
     .subtituloContenido h3 {
-      font-size: 1.5rem; } }
+      font-size: 1.9rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
   @media screen and (min-width: 1200px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
+
+.modificarParrafo {
+  text-align: justify; }
 
 /* Inicio de animaciones del header */
 .animacionesTitulo {
@@ -105,11 +108,11 @@ a {
   font-style: italic; }
 
 .subtituloContenido h2 {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   margin: 40px; }
 
 .subtituloContenido h3 {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   margin: 20px; }
 
 /* Contenido tipografico del Titulo principal y el menu */
@@ -131,7 +134,7 @@ a {
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h2 {
       font-size: 2.5rem; } }
@@ -140,13 +143,16 @@ a {
       font-size: 2.5rem; } }
   @media screen and (min-width: 768px) {
     .subtituloContenido h3 {
-      font-size: 1.5rem; } }
+      font-size: 1.9rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
   @media screen and (min-width: 1200px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
+
+.modificarParrafo {
+  text-align: justify; }
 
 /* Inicio del Header */
 /* Inicio de fondo, tipografia y color de la tipografia */
@@ -181,8 +187,13 @@ a {
   height: 100%;
   padding: 15px; }
 
-.contenidoIndex {
-  width: 50vw; }
+@media screen and (min-width: 1024px) {
+  .contenidoIndex {
+    width: 70vw; } }
+
+@media screen and (min-width: 1200px) {
+  .contenidoIndex {
+    width: 60vw; } }
 
 /* Video */
 /* Fin del contenido */
@@ -198,11 +209,11 @@ a {
   font-style: italic; }
 
 .subtituloContenido h2 {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   margin: 40px; }
 
 .subtituloContenido h3 {
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   margin: 20px; }
 
 /* Contenido tipografico del Titulo principal y el menu */
@@ -224,7 +235,7 @@ a {
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
-      font-size: 2rem; } }
+      font-size: 2.3rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h2 {
       font-size: 2.5rem; } }
@@ -233,13 +244,16 @@ a {
       font-size: 2.5rem; } }
   @media screen and (min-width: 768px) {
     .subtituloContenido h3 {
-      font-size: 1.5rem; } }
+      font-size: 1.9rem; } }
   @media screen and (min-width: 1024px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
   @media screen and (min-width: 1200px) {
     .subtituloContenido h3 {
-      font-size: 2rem; } }
+      font-size: 2.1rem; } }
+
+.modificarParrafo {
+  text-align: justify; }
 
 /*Inicio del Footer*/
 footer {
@@ -254,3 +268,18 @@ footer {
   font-weight: 300; }
 
 /* Fin del Footer */
+@media screen and (min-width: 1024px) {
+  .tamanoTecnologia {
+    width: 25%; } }
+
+@media screen and (min-width: 1200px) {
+  .tamanoTecnologia {
+    width: 25%; } }
+
+@media screen and (min-width: 1024px) {
+  .quienesSomos {
+    width: 25%; } }
+
+@media screen and (min-width: 1200px) {
+  .quienesSomos {
+    width: 25%; } }
