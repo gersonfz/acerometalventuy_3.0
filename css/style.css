@@ -39,7 +39,6 @@ a {
 .subtituloContenido {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: #595959;
-  text-align: center;
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
@@ -129,7 +128,6 @@ a {
 .subtituloContenido {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: #595959;
-  text-align: center;
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
@@ -223,7 +221,6 @@ a {
 .subtituloContenido {
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: #595959;
-  text-align: center;
   font-weight: 400; }
   @media screen and (min-width: 768px) {
     .subtituloContenido h2 {
