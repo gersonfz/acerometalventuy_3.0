@@ -79,7 +79,8 @@ a {
   animation-name: menu;
   animation-iteration-count: 1;
   animation-duration: 1s;
-  animation-delay: 0s; }
+  animation-delay: 0s;
+  overflow: hidden; }
   @media screen and (min-width: 1024px) {
     .animacionesMenu {
       animation-duration: 3s;
@@ -265,7 +266,14 @@ footer {
   color: #F2F2F2;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 1rem;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-top: 1rem; }
+  footer .enlacePersonal {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 1rem;
+    font-style: normal; }
 
 /* Fin del Footer */
 @media screen and (min-width: 1024px) {

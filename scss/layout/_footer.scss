@@ -13,7 +13,16 @@ footer{
     font-family: $tipografiaPrincipal;
     font-size: 1rem;
     font-weight: 300;
-
+    margin-top: 1rem;
+    .enlacePersonal{ 
+        color: $principal;
+        text-decoration:none;
+        font-family: $tipografiaPrincipal;
+        font-size: 1rem;
+        font-style: normal;
+    }
 }
+
+
 
 /* Fin del Footer */
