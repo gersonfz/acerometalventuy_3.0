@@ -79,8 +79,7 @@ a {
   animation-name: menu;
   animation-iteration-count: 1;
   animation-duration: 1s;
-  animation-delay: 0s;
-  overflow: hidden; }
+  animation-delay: 0s; }
   @media screen and (min-width: 1024px) {
     .animacionesMenu {
       animation-duration: 3s;
